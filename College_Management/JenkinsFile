@@ -9,7 +9,7 @@ pipeline {
         DB_NAME = 'scollege_db'
         DB_PWD = 'Avimal@2710'
         // Path to your project folder relative to the git root
-        PROJECT_DIR = 'College_Management/College_Management'
+        PROJECT_DIR = 'College_Management'
     }
 
     stages {
