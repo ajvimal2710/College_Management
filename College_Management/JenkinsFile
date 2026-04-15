@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    triggers {
-        // Automatically checks GitHub for changes every minute
-        scm('* * * * *')
-    }
 
     environment {
         DOCKER_IMAGE = 'college-crud'
